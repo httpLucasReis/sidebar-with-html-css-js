@@ -1,0 +1,17 @@
+@media(max-width: 1024px) {
+    #btn-navbar {
+        display: block;
+    }
+
+    #navbar {
+        left: -200px;
+    }
+
+    #navbar.active {
+        left: 0px;
+    }
+
+    #content main {
+        margin-left: 20px;
+    }
+}
